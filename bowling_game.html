@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bowling Scoreboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="col-sm-6">
+        <h1 id="welcome_message">Welcome to Bowling Game</h1>
+        <h2 id="frame"></h2>
+        <p id="pin_request">Please enter pins hit:</p>
+        <aside id="welcome_box">
+          <h2 id="messages"></h2>
+        </aside>
+        <form id="name_form">
+          <labe>Please enter your name: </labe><br /><br />
+          <input type="text" id="enter_name"><br /><br />
+          <button type="submit" id="name_submit">Let The Games Begin</button>
+        </form>
+      </header>
+
+      <section id="pinHit" class="col-sm-6">
+        <ul id="list">
+          <li id="0" data-pick="0">0</li>
+          <li id="1" data-pick="1">1</li>
+          <li id="2" data-pick="2">2</li>
+          <li id="3" data-pick="3">3</li>
+          <li id="4" data-pick="4">4</li>
+          <li id="5" data-pick="5">5</li>
+          <li id="6" data-pick="6">6</li>
+          <li id="7" data-pick="7">7</li>
+          <li id="8" data-pick="8">8</li>
+          <li id="9" data-pick="9">9</li>
+          <li id="10" data-pick="10">10</li>
+        </ul>
+
+        <div id="table">
+          <table id="table_data">
+          </table>
+        </div>
+      </section>
+
+    </div>
+    <script type='text/javascript' src='./src/js/player.js'></script>
+    <script type='text/javascript' src='./src/js/frame.js'></script>
+    <script type='text/javascript' src='./src/js/scoreBoard.js'></script>
+    <script type='text/javascript' src='./src/js/message.js'></script>
+    <script type='text/javascript' src='./src/js/jquery-2.1.1.min.js'></script>
+    <script type='text/javascript' src='./src/js/jquery-ui.min.js'></script>
+    <script type='text/javascript' src='./src/js/bowling_game.js'></script>
+  </body>
+</html>
