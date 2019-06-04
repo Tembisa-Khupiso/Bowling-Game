@@ -1,2 +1,2 @@
 # Bowling-Game
-  https://tembisa-khupiso.github.io/Bowling-Game/bowling_game.html
+  https://tembisa-khupiso.github.io/Bowling-game/bowling_game.html
